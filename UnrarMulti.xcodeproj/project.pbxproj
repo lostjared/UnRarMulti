@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FEBFD101BCC32D400DBD5BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBFD0F1BCC32D400DBD5BF /* AppDelegate.m */; };
+		7FEBFD131BCC32D400DBD5BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBFD121BCC32D400DBD5BF /* main.m */; };
+		7FEBFD151BCC32D400DBD5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD141BCC32D400DBD5BF /* Assets.xcassets */; };
+		7FEBFD181BCC32D400DBD5BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD161BCC32D400DBD5BF /* MainMenu.xib */; };
+		7FEBFD231BCC32D500DBD5BF /* UnrarMultiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBFD221BCC32D500DBD5BF /* UnrarMultiTests.m */; };
+		7FEBFD2E1BCC32D500DBD5BF /* UnrarMultiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBFD2D1BCC32D500DBD5BF /* UnrarMultiUITests.m */; };
+		7FEBFD3C1BCC331100DBD5BF /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBFD3B1BCC331100DBD5BF /* AppController.mm */; };
+		7FEBFD441BCC553000DBD5BF /* rar in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD421BCC553000DBD5BF /* rar */; };
+		7FEBFD451BCC553000DBD5BF /* unrar in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD431BCC553000DBD5BF /* unrar */; };
+		7FEBFD471BCC553E00DBD5BF /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7FEBFD461BCC553E00DBD5BF /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FEBFD1F1BCC32D500DBD5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FEBFD031BCC32D400DBD5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FEBFD0A1BCC32D400DBD5BF;
+			remoteInfo = UnrarMulti;
+		};
+		7FEBFD2A1BCC32D500DBD5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FEBFD031BCC32D400DBD5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FEBFD0A1BCC32D400DBD5BF;
+			remoteInfo = UnrarMulti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FEBFD0B1BCC32D400DBD5BF /* UnrarMulti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnrarMulti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEBFD0E1BCC32D400DBD5BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FEBFD0F1BCC32D400DBD5BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FEBFD121BCC32D400DBD5BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FEBFD141BCC32D400DBD5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FEBFD171BCC32D400DBD5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7FEBFD191BCC32D400DBD5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEBFD1E1BCC32D500DBD5BF /* UnrarMultiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnrarMultiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEBFD221BCC32D500DBD5BF /* UnrarMultiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnrarMultiTests.m; sourceTree = "<group>"; };
+		7FEBFD241BCC32D500DBD5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEBFD291BCC32D500DBD5BF /* UnrarMultiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnrarMultiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEBFD2D1BCC32D500DBD5BF /* UnrarMultiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnrarMultiUITests.m; sourceTree = "<group>"; };
+		7FEBFD2F1BCC32D500DBD5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEBFD3B1BCC331100DBD5BF /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
+		7FEBFD3D1BCC332500DBD5BF /* AppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		7FEBFD421BCC553000DBD5BF /* rar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = rar; sourceTree = "<group>"; };
+		7FEBFD431BCC553000DBD5BF /* unrar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = unrar; sourceTree = "<group>"; };
+		7FEBFD461BCC553E00DBD5BF /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FEBFD081BCC32D400DBD5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEBFD1B1BCC32D500DBD5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEBFD261BCC32D500DBD5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FEBFD021BCC32D400DBD5BF = {
+			isa = PBXGroup;
+			children = (
+				7FEBFD0D1BCC32D400DBD5BF /* UnrarMulti */,
+				7FEBFD211BCC32D500DBD5BF /* UnrarMultiTests */,
+				7FEBFD2C1BCC32D500DBD5BF /* UnrarMultiUITests */,
+				7FEBFD0C1BCC32D400DBD5BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FEBFD0C1BCC32D400DBD5BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FEBFD0B1BCC32D400DBD5BF /* UnrarMulti.app */,
+				7FEBFD1E1BCC32D500DBD5BF /* UnrarMultiTests.xctest */,
+				7FEBFD291BCC32D500DBD5BF /* UnrarMultiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FEBFD0D1BCC32D400DBD5BF /* UnrarMulti */ = {
+			isa = PBXGroup;
+			children = (
+				7FEBFD421BCC553000DBD5BF /* rar */,
+				7FEBFD431BCC553000DBD5BF /* unrar */,
+				7FEBFD0E1BCC32D400DBD5BF /* AppDelegate.h */,
+				7FEBFD0F1BCC32D400DBD5BF /* AppDelegate.m */,
+				7FEBFD141BCC32D400DBD5BF /* Assets.xcassets */,
+				7FEBFD161BCC32D400DBD5BF /* MainMenu.xib */,
+				7FEBFD191BCC32D400DBD5BF /* Info.plist */,
+				7FEBFD461BCC553E00DBD5BF /* icon.icns */,
+				7FEBFD111BCC32D400DBD5BF /* Supporting Files */,
+				7FEBFD3B1BCC331100DBD5BF /* AppController.mm */,
+				7FEBFD3D1BCC332500DBD5BF /* AppController.h */,
+			);
+			path = UnrarMulti;
+			sourceTree = "<group>";
+		};
+		7FEBFD111BCC32D400DBD5BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FEBFD121BCC32D400DBD5BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FEBFD211BCC32D500DBD5BF /* UnrarMultiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FEBFD221BCC32D500DBD5BF /* UnrarMultiTests.m */,
+				7FEBFD241BCC32D500DBD5BF /* Info.plist */,
+			);
+			path = UnrarMultiTests;
+			sourceTree = "<group>";
+		};
+		7FEBFD2C1BCC32D500DBD5BF /* UnrarMultiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FEBFD2D1BCC32D500DBD5BF /* UnrarMultiUITests.m */,
+				7FEBFD2F1BCC32D500DBD5BF /* Info.plist */,
+			);
+			path = UnrarMultiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FEBFD0A1BCC32D400DBD5BF /* UnrarMulti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEBFD321BCC32D500DBD5BF /* Build configuration list for PBXNativeTarget "UnrarMulti" */;
+			buildPhases = (
+				7FEBFD071BCC32D400DBD5BF /* Sources */,
+				7FEBFD081BCC32D400DBD5BF /* Frameworks */,
+				7FEBFD091BCC32D400DBD5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnrarMulti;
+			productName = UnrarMulti;
+			productReference = 7FEBFD0B1BCC32D400DBD5BF /* UnrarMulti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FEBFD1D1BCC32D500DBD5BF /* UnrarMultiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEBFD351BCC32D500DBD5BF /* Build configuration list for PBXNativeTarget "UnrarMultiTests" */;
+			buildPhases = (
+				7FEBFD1A1BCC32D500DBD5BF /* Sources */,
+				7FEBFD1B1BCC32D500DBD5BF /* Frameworks */,
+				7FEBFD1C1BCC32D500DBD5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FEBFD201BCC32D500DBD5BF /* PBXTargetDependency */,
+			);
+			name = UnrarMultiTests;
+			productName = UnrarMultiTests;
+			productReference = 7FEBFD1E1BCC32D500DBD5BF /* UnrarMultiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FEBFD281BCC32D500DBD5BF /* UnrarMultiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEBFD381BCC32D500DBD5BF /* Build configuration list for PBXNativeTarget "UnrarMultiUITests" */;
+			buildPhases = (
+				7FEBFD251BCC32D500DBD5BF /* Sources */,
+				7FEBFD261BCC32D500DBD5BF /* Frameworks */,
+				7FEBFD271BCC32D500DBD5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FEBFD2B1BCC32D500DBD5BF /* PBXTargetDependency */,
+			);
+			name = UnrarMultiUITests;
+			productName = UnrarMultiUITests;
+			productReference = 7FEBFD291BCC32D500DBD5BF /* UnrarMultiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FEBFD031BCC32D400DBD5BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jared Bruni";
+				TargetAttributes = {
+					7FEBFD0A1BCC32D400DBD5BF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					7FEBFD1D1BCC32D500DBD5BF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 7FEBFD0A1BCC32D400DBD5BF;
+					};
+					7FEBFD281BCC32D500DBD5BF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 7FEBFD0A1BCC32D400DBD5BF;
+					};
+				};
+			};
+			buildConfigurationList = 7FEBFD061BCC32D400DBD5BF /* Build configuration list for PBXProject "UnrarMulti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FEBFD021BCC32D400DBD5BF;
+			productRefGroup = 7FEBFD0C1BCC32D400DBD5BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FEBFD0A1BCC32D400DBD5BF /* UnrarMulti */,
+				7FEBFD1D1BCC32D500DBD5BF /* UnrarMultiTests */,
+				7FEBFD281BCC32D500DBD5BF /* UnrarMultiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FEBFD091BCC32D400DBD5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEBFD441BCC553000DBD5BF /* rar in Resources */,
+				7FEBFD451BCC553000DBD5BF /* unrar in Resources */,
+				7FEBFD471BCC553E00DBD5BF /* icon.icns in Resources */,
+				7FEBFD151BCC32D400DBD5BF /* Assets.xcassets in Resources */,
+				7FEBFD181BCC32D400DBD5BF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEBFD1C1BCC32D500DBD5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEBFD271BCC32D500DBD5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FEBFD071BCC32D400DBD5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEBFD131BCC32D400DBD5BF /* main.m in Sources */,
+				7FEBFD3C1BCC331100DBD5BF /* AppController.mm in Sources */,
+				7FEBFD101BCC32D400DBD5BF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEBFD1A1BCC32D500DBD5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEBFD231BCC32D500DBD5BF /* UnrarMultiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEBFD251BCC32D500DBD5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEBFD2E1BCC32D500DBD5BF /* UnrarMultiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FEBFD201BCC32D500DBD5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FEBFD0A1BCC32D400DBD5BF /* UnrarMulti */;
+			targetProxy = 7FEBFD1F1BCC32D500DBD5BF /* PBXContainerItemProxy */;
+		};
+		7FEBFD2B1BCC32D500DBD5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FEBFD0A1BCC32D400DBD5BF /* UnrarMulti */;
+			targetProxy = 7FEBFD2A1BCC32D500DBD5BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FEBFD161BCC32D400DBD5BF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FEBFD171BCC32D400DBD5BF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FEBFD301BCC32D500DBD5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FEBFD311BCC32D500DBD5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FEBFD331BCC32D500DBD5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnrarMulti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LostSideDead.UnrarMulti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FEBFD341BCC32D500DBD5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnrarMulti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LostSideDead.UnrarMulti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FEBFD361BCC32D500DBD5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnrarMultiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LostSideDead.UnrarMultiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnrarMulti.app/Contents/MacOS/UnrarMulti";
+			};
+			name = Debug;
+		};
+		7FEBFD371BCC32D500DBD5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnrarMultiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LostSideDead.UnrarMultiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnrarMulti.app/Contents/MacOS/UnrarMulti";
+			};
+			name = Release;
+		};
+		7FEBFD391BCC32D500DBD5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnrarMultiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LostSideDead.UnrarMultiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UnrarMulti;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7FEBFD3A1BCC32D500DBD5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnrarMultiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LostSideDead.UnrarMultiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UnrarMulti;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FEBFD061BCC32D400DBD5BF /* Build configuration list for PBXProject "UnrarMulti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEBFD301BCC32D500DBD5BF /* Debug */,
+				7FEBFD311BCC32D500DBD5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEBFD321BCC32D500DBD5BF /* Build configuration list for PBXNativeTarget "UnrarMulti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEBFD331BCC32D500DBD5BF /* Debug */,
+				7FEBFD341BCC32D500DBD5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEBFD351BCC32D500DBD5BF /* Build configuration list for PBXNativeTarget "UnrarMultiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEBFD361BCC32D500DBD5BF /* Debug */,
+				7FEBFD371BCC32D500DBD5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEBFD381BCC32D500DBD5BF /* Build configuration list for PBXNativeTarget "UnrarMultiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEBFD391BCC32D500DBD5BF /* Debug */,
+				7FEBFD3A1BCC32D500DBD5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FEBFD031BCC32D400DBD5BF /* Project object */;
+}
