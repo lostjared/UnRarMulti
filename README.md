@@ -1,6 +1,3 @@
 # UnRarMulti
 
-Batch rar extraction. Select .rar archives to extract one at a time to specific location or use the directory scan
-to add all archives in a directory tree and then extract them.
-
-
+UnRarMulti is a tool designed for batch extraction of RAR archives. It allows users to either select individual .rar files for extraction to a designated location or employ the directory scan feature. The directory scan option facilitates the addition of all archives found within a directory tree, enabling their subsequent extraction in a streamlined manner.
